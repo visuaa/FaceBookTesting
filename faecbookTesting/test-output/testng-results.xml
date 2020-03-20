@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13167" started-at="2020-03-19T12:22:54Z" finished-at="2020-03-19T12:23:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13167" started-at="2020-03-19T12:22:54Z" finished-at="2020-03-19T12:23:07Z">
+      <class name="faecbookTesting.User">
+        <test-method status="PASS" signature="testUser()[pri:0, instance:faecbookTesting.User@396a51ab]" name="testUser" duration-ms="13152" started-at="2020-03-19T17:52:54Z" finished-at="2020-03-19T17:53:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser -->
+      </class> <!-- faecbookTesting.User -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
