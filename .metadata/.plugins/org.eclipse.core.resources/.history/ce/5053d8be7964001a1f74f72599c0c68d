@@ -1,0 +1,15 @@
+package com.testing;
+
+import org.openqa.selenium.By;
+
+public class LoginFavebook {
+
+	By email = By.xpath(".//input[@type='email']");
+
+	By password = By.xpath(".//input[@type='password']");
+
+	By Login = By.xpath(".//input[contains(@value,'Log')]");
+	
+	
+
+}

@@ -1,0 +1,33 @@
+package faecbookTesting;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginFunctionality {
+	
+	WebDriver driver;
+	
+	By username=By.xpath(".//input[@id='email']");
+	
+	By password=By.cssSelector("input[id='pass']");
+	
+	By LoginButton=By.cssSelector("input[id='u_0_2']");
+	
+	
+	public void getFaceBook(WebDriver driver)
+	{
+		this.driver=driver;
+		driver.get("https://www.facebook.com/");
+	}
+	
+	public void enterUserName(String username)
+	{
+		driver.findElement(this.username).sendKeys(username);
+	}
+	
+	public void enterPassword(String password)
+	{
+		driver.findElement(this.password).sendKeys(password);
+	}
+    
+	
+}

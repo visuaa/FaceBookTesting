@@ -1,0 +1,32 @@
+package faecbookTesting;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+public class LoginPageFactory {
+	
+	WebDriver driver;
+	
+	public LoginPageFactory(WebDriver driver)
+	{
+		this.driver = driver;
+	}
+
+@FindBy(id="email") WebElement Username;
+    
+   @FindBy(how=How.XPATH,using="//*[@id='pass']") WebElement Password;
+   
+   @FindBy(how=How.XPATH,using="//input[@value='Log In']") WebElement LogIN_Button;
+   
+   public void LoginFaceBook(String Uname,String pass)
+   {
+	   Username.sendKeys(Uname);
+	   
+	   Password.sendKeys(pass);
+	   
+	   LogIN_Button.click();
+   }
+
+}

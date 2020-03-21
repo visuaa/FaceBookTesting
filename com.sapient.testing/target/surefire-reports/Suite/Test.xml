@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-U7TQIQO" name="com.testing.facebook_Testing" tests="1" failures="0" timestamp="14 Mar 2020 08:39:51 GMT" time="24.826" errors="0">
+  <testcase name="TestFacebook" time="24.814" classname="com.testing.facebook_Testing"/>
+</testsuite>

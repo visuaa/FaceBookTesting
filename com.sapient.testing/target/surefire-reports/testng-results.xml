@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24826" started-at="2020-03-14T14:09:26Z" finished-at="2020-03-14T14:09:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24826" started-at="2020-03-14T14:09:26Z" finished-at="2020-03-14T14:09:51Z">
+      <class name="com.testing.facebook_Testing">
+        <test-method status="PASS" signature="TestFacebook()" name="TestFacebook" duration-ms="24814" started-at="2020-03-14T14:09:26Z" finished-at="2020-03-14T14:09:51Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
